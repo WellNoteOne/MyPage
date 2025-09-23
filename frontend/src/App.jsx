@@ -9,7 +9,6 @@ import "./App.css";
 function App() {
   return (
     <>
-      {/*<h1 className="Name">Valentin Sugai</h1>*/}
       <div>
         <Header />
         <Hero />

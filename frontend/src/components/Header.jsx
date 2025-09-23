@@ -1,20 +1,20 @@
+import "./Header.css";
 export default function Header() {
   return (
-    <header className="flex justify-between items-center p-6 bg-white shadow-md fixed w-full top-0 z-10">
-      <h1 className="text-xl font-bold">Valentin Sugai</h1>
-      <nav className="space-x-6">
-        <a href="#about" className="hover:text-blue-500">
-          About
-        </a>
+    <header>
+      <div className="header">
+        <h1 className="h1">
+          Valentin <br />
+          Sugai
+        </h1>
+        <nav className="nav">
+          <a href="#about">About</a>
 
-        <a href="#projects" className="hover:text-blue-500">
-          Projects
-        </a>
+          <a href="#projects">Projects</a>
 
-        <a href="#contact" className="hover:text-blue-500">
-          Contact
-        </a>
-      </nav>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
     </header>
   );
 }
