@@ -8,6 +8,7 @@
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 7rem;
   font-weight: 900;
+  flex: 2;
 }
 .nav a {
   flex: 1;

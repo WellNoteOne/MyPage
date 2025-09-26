@@ -1,0 +1,9 @@
+.square {
+  background-color: #0c1117;
+  border: #64ffda 1px solid;
+  color: #64ffda;
+}
+.game-info {
+  background-color: #64ffda;
+  color: #0c1117;
+}
