@@ -25,7 +25,6 @@ export default function MatrixBackground() {
     const draw = () => {
       frame++;
       if (frame % 2 === 0) {
-        // обновляем только каждый второй кадр
         ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
         ctx.fillRect(0, 0, canvas.width, canvas.height);
 
@@ -41,7 +40,7 @@ export default function MatrixBackground() {
           if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
             drops[i] = 0;
           }
-          drops[i] += 0.6; // уменьшаем шаг падения для замедления
+          drops[i] += 0.6;
         }
       }
       animationFrame = requestAnimationFrame(draw);
@@ -65,6 +64,7 @@ export default function MatrixBackground() {
         zIndex: -1,
         width: "100%",
         height: "100%",
+        filter: "blur(1px) brightness(0.5)",
       }}
     />
   );

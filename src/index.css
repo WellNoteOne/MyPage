@@ -16,14 +16,14 @@ a:hover {
 
 /* Body */
 body {
-  font-family: "Zalando Sans Expanded", sans-serif;
+  font-family: "Share Tech Mono";
   font-weight: 200;
   display: flex;
   place-items: center;
   margin: 0;
   padding: 0;
   background-color: #0c1117;
-  color: #64ffda;
+  color: rgb(0, 208, 0);
 }
 
 /* Buttons */
