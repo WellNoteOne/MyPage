@@ -7,8 +7,10 @@ import Footer from "./components/Footer/Footer";
 import MatrixBackground from "./components/MatrixAnim";
 import Game from "./components/Game/Tic";
 import "./App.css";
+import { useState } from "react";
 
 function App() {
+  const [isHide, setIsHide] = useState(true);
   return (
     <>
       <div>

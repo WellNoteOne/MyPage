@@ -65,7 +65,7 @@ export default function MatrixBackground() {
         width: "100%",
         height: "100%",
         filter: "brightness(0.5)",
-        opacity: "60%",
+        opacity: "50%",
       }}
     />
   );
