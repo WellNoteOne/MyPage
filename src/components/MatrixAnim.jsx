@@ -14,8 +14,8 @@ export default function MatrixBackground() {
     resize();
     window.addEventListener("resize", resize);
 
-    const letters = "アカサタナハマヤラワABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-    const fontSize = 21;
+    const letters = "DEFGHIJKLMNアカサタナハマヤラワABCOPQRSTUVWXYZ0123456789";
+    const fontSize = 25;
     const columns = canvas.width / fontSize;
     const drops = Array(Math.floor(columns)).fill(1);
 
@@ -64,7 +64,8 @@ export default function MatrixBackground() {
         zIndex: -1,
         width: "100%",
         height: "100%",
-        filter: "blur(1px) brightness(0.5)",
+        filter: "brightness(0.5)",
+        opacity: "60%",
       }}
     />
   );

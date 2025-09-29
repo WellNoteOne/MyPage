@@ -3,4 +3,6 @@
   text-align: center;
   color: #6b7280; /* text-gray-500 */
   border-top: 1px solid #e5e7eb; /* border-t */
+  background-color: white;
+  opacity: 10%;
 }

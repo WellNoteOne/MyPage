@@ -15,5 +15,5 @@ section {
 }
 .nav {
   flex: 2;
-  align-items: center;
+  align-items: end;
 }

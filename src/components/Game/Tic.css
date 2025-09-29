@@ -1,9 +1,49 @@
 .square {
-  background-color: #0c1117;
-  border: #64ffda 1px solid;
-  color: #64ffda;
+  border: rgb(0, 208, 0) 1px solid;
+  color: rgb(0, 208, 0);
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 10%;
 }
 .game-info {
-  background-color: #64ffda;
-  color: #0c1117;
+  color: rgb(0, 208, 0);
+}
+
+.game-info button {
+  color: rgb(0, 208, 0);
+}
+.game {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* по горизонтали */
+  align-items: center;
+}
+.square {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  background: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.board-row {
+  display: flex;
+}
+
+.status {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  text-align: center;
 }

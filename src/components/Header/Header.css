@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  font-size: 4rem;
+  justify-content: right;
+}
+
+.myname {
+  font-size: 7rem;
+  font-weight: 900;
+  flex: 2;
+  text-shadow: 0 0 5px rgb(171, 255, 156), 0 0 10px rgb(38, 255, 0),
+    0 0 10px rgb(38, 255, 0);
+}
+
+.nav a {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.nav a:hover {
+  color: aliceblue;
+  text-shadow: 0 0 8px rgb(38, 255, 0), 0 0 15px rgb(38, 255, 0),
+    0 0 25px rgb(38, 255, 0);
+}
