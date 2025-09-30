@@ -9,8 +9,9 @@
   font-size: 2rem;
   font-weight: bold;
   cursor: pointer;
-  opacity: 10%;
+  opacity: 50%;
 }
+
 .game-info {
   color: rgb(0, 208, 0);
 }
@@ -25,23 +26,9 @@
   justify-content: center; /* по горизонтали */
   align-items: center;
 }
-.square {
-  width: 80px;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  font-weight: bold;
-  background: #fff;
-  border: 1px solid #000;
-  cursor: pointer;
-}
-
 .board-row {
   display: flex;
 }
-
 .status {
   margin-bottom: 10px;
   font-size: 1.2rem;

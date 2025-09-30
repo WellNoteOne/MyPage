@@ -5,7 +5,11 @@ const projects = [
     link: "https://github.com/WellNoteOne",
     desc: "ASP.NET API with UI",
   },
-  { title: "Frontend App", link: "#", desc: "React SPA" },
+  {
+    title: "Hobbly",
+    link: "https://hobbly.azurewebsites.net",
+    desc: "Group project",
+  },
 ];
 
 export default function Projects() {
@@ -15,13 +19,23 @@ export default function Projects() {
       <div className="projects-grid">
         {projects.map((p, i) => (
           <div key={i} className="project-card">
-            <h4 className="project-title">{p.title}</h4>
-            <p className="project-desc">{p.desc}</p>
+            <iframe>
+              <h4 className="project-title">{p.title}</h4>
+              <p className="project-desc">{p.desc}</p>
+            </iframe>
             <a href={p.link} target="_blank" className="project-link">
               See all →
             </a>
           </div>
         ))}
+      </div>
+      <div class="project-window">
+        <iframe
+          src="https://hobbly.azurewebsites.net"
+          title="Hobbly Project"
+          loading="lazy"
+          frameborder="0"
+        ></iframe>
       </div>
     </section>
   );
