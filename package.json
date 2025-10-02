@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://wellnoteone.github.io/MyPage",
+  "homepage": "https://wellnoteone.github.io/mypage",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
