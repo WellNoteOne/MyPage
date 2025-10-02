@@ -3,10 +3,11 @@
   flex-direction: column;
   margin: 10px;
   font-size: 4rem;
-  justify-content: right;
+  justify-content: flex-end;
 }
 
 .myname {
+  padding-left: 10px;
   font-size: 7rem;
   font-weight: 900;
   flex: 2;

@@ -7,6 +7,13 @@ export default function About() {
         I am a programmer studying React, ASP.NET, and cloud technologies. I
         enjoy creating projects with clean UIs and interesting functionality.
       </p>
+      <a
+        href="/CV.pdf" // путь к твоему CV в public
+        download="CV(Valentin).pdf"
+        className="download-btn"
+      >
+        Download My CV
+      </a>
     </section>
   );
 }
