@@ -8,7 +8,7 @@ export default function About() {
         enjoy creating projects with clean UIs and interesting functionality.
       </p>
       <a
-        href="/CV.pdf" // путь к твоему CV в public
+        href="mypage/CV.pdf"
         download="CV(Valentin).pdf"
         className="download-btn"
       >
