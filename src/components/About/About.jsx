@@ -8,7 +8,7 @@ export default function About() {
         enjoy creating projects with clean UIs and interesting functionality.
       </p>
       <a
-        href="mypage/CV.pdf"
+        href={`${import.meta.env.BASE_URL}CV.pdf`}
         download="CV(Valentin).pdf"
         className="download-btn"
       >
