@@ -45,4 +45,8 @@
     border-radius: 40px;
     font-size: 1.5rem;
   }
+  .game-info button:hover {
+    background-color: rgba(0, 208, 0);
+    color: black;
+  }
 }
