@@ -24,3 +24,25 @@
   background-color: rgba(0, 208, 0);
   color: black;
 }
+@media (max-width: 425px) {
+  .about-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .about-title {
+    flex: 1;
+  }
+  .about-text {
+  }
+  .download-btn {
+    flex: 1;
+    padding: 20px 30px 20px 30px;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    font-size: 1.5rem;
+    margin: 0 auto 0 auto;
+    border-radius: 40px;
+  }
+}

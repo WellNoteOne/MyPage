@@ -56,3 +56,12 @@
   background-color: white;
   color: #3b82f6;
 }
+@media (max-width: 425px) {
+  .hero-btn {
+    display: none;
+  }
+  .hero-subtitle {
+    font-size: 1.5rem; /* ~text-lg */
+    margin: 0;
+  }
+}

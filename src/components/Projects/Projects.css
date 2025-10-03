@@ -116,3 +116,9 @@
 .close-btn:hover {
   background: darkred;
 }
+
+@media (max-width: 425px) {
+  .project-preview {
+    display: none;
+  }
+}
