@@ -56,7 +56,7 @@
   background-color: white;
   color: #3b82f6;
 }
-@media (max-width: 425px) {
+@media (max-width: 430px) {
   .hero-btn {
     display: none;
   }

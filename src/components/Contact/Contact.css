@@ -29,7 +29,7 @@
   text-decoration: underline;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
   .contact-links {
     font-size: 1.3rem;
   }
