@@ -11,18 +11,18 @@ export default defineConfig({
       manifest: {
         name: "Valentin Sugai",
         short_name: "Portfolio VS",
-        start_url: "/",
+        start_url: "/mypage/",
         display: "standalone",
         background_color: "#ffffff",
         theme_color: "#1a1a1a",
         icons: [
           {
-            src: "./android-chrome-192x192.png",
+            src: "/android-chrome-192x192.png",
             sizes: "192x192",
             type: "image/png",
           },
           {
-            src: "./android-chrome-512x512.png",
+            src: "/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
           },
