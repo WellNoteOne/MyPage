@@ -121,4 +121,33 @@
   .project-preview {
     display: none;
   }
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    transition: none;
+    transform: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-card:hover {
+    transform: none;
+    box-shadow: none;
+    transition: none;
+  }
+  .projects-title {
+    font-size: 1rem;
+  }
+  .project-link {
+    color: rgb(38, 255, 0);
+    font-size: 1.5rem;
+    margin: 10px auto 0px auto;
+    padding: 15px 20px;
+    border: 1px solid rgb(38, 255, 0);
+    border-radius: 30px;
+  }
+  .project-desc {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
