@@ -8,6 +8,7 @@ import MatrixBackground from "./components/MatrixAnim";
 import Game from "./components/Game/Tic";
 import "./App.css";
 import { useState } from "react";
+import JokeButton from "./components/Joke/Joke";
 
 function App() {
   const [showGame, setShowGame] = useState(true);
@@ -28,6 +29,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <JokeButton />
       <Footer />
     </>
   );
