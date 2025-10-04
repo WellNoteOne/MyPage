@@ -10,19 +10,25 @@ import "./App.css";
 import { useState } from "react";
 
 function App() {
-  const [isHide, setIsHide] = useState(true);
+  const [showGame, setShowGame] = useState(true);
+
+  const toggleGame = () => {
+    setShowGame(!showGame);
+  };
+
   return (
     <>
-      <div>
-        <MatrixBackground />
-        <Header />
-        <Hero />
-        <Game />
-        <About />
-        <Projects />
-        <Contact />
-        <Footer />
-      </div>
+      <MatrixBackground />
+      <Header />
+      <Hero />
+      <button className="gamebut" onClick={toggleGame}>
+        {showGame ? "Hide game" : "Open game"}
+      </button>
+      {showGame && <Game />}
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </>
   );
 }

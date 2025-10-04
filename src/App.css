@@ -16,3 +16,18 @@ section {
   flex: 2;
   align-items: end;
 }
+.gamebut {
+  display: block;
+  color: rgb(0, 208, 0);
+  margin: 10px auto;
+  border: 1px solid rgb(0, 208, 0);
+  padding: 15px;
+  border-radius: 25px;
+}
+.gamebut:hover {
+  background-color: rgba(0, 208, 0);
+  color: black;
+}
+.gamebut:focus {
+  outline: none;
+}
