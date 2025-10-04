@@ -29,7 +29,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
-      <JokeButton />
+      {/*<JokeButton />*/}
       <Footer />
     </>
   );
