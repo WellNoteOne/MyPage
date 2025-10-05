@@ -1,0 +1,18 @@
+.joke-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 2px solid rgb(0, 255, 51);
+
+  margin-bottom: 20px;
+}
+
+.camera-preview {
+  border-radius: 10px;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+  margin: 10px auto;
+}

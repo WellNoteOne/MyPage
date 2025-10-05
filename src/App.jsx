@@ -9,6 +9,7 @@ import Game from "./components/Game/Tic";
 import "./App.css";
 import { useState } from "react";
 import JokeButton from "./components/Joke/Joke";
+import CameraButton from "./components/Camera/Camera";
 
 function App() {
   const [showGame, setShowGame] = useState(true);
@@ -29,7 +30,8 @@ function App() {
       <About />
       <Projects />
       <Contact />
-      {/*<JokeButton />*/}
+      {/*<JokeButton /> на потом*/}
+      {/*<CameraButton /> на потом */}
       <Footer />
     </>
   );
