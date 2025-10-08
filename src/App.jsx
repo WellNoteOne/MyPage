@@ -8,11 +8,13 @@ import MatrixBackground from "./components/MatrixAnim";
 import Game from "./components/Game/Tic";
 import "./App.css";
 import { useState } from "react";
-import JokeButton from "./components/Joke/Joke";
-import CameraButton from "./components/Camera/Camera";
+import BottomNav from "./components/BottomNavbar/BottomNavbar";
+
+// import JokeButton from "./components/Joke/Joke";
+// import CameraButton from "./components/Camera/Camera";
 
 function App() {
-  const [showGame, setShowGame] = useState(true);
+  const [showGame, setShowGame] = useState(false);
 
   const toggleGame = () => {
     setShowGame(!showGame);
@@ -33,6 +35,7 @@ function App() {
       {/*<JokeButton /> на потом*/}
       {/*<CameraButton /> на потом */}
       <Footer />
+      <BottomNav />
     </>
   );
 }

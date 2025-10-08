@@ -24,7 +24,7 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* по горизонтали */
+  justify-content: center;
   align-items: center;
 }
 .board-row {

@@ -9,12 +9,9 @@ function JokeButton() {
   const colors = ["red", "yellow", "green", "blue", "purple", "orange"];
 
   const handleJoke = () => {
-    // Вибрация
     if (navigator.vibrate) {
       navigator.vibrate([300, 100, 300]);
     }
-
-    // Асинхронное воспроизведение звука
     function playAsyncMultiple(times, delay) {
       for (let i = 0; i < times; i++) {
         setTimeout(() => {
@@ -25,7 +22,6 @@ function JokeButton() {
     }
     playAsyncMultiple(5, 100);
 
-    // Включаем мерцание экрана
     setFlashing(true);
   };
 
@@ -42,7 +38,7 @@ function JokeButton() {
           setFlashing(false);
           setBgColor("transparent");
         }
-      }, 100); // быстрый эффект мигания
+      }, 100);
     }
     return () => clearInterval(interval);
   }, [flashing]);
@@ -56,7 +52,7 @@ function JokeButton() {
         ></div>
       )}
       <button className="joke-button" onClick={handleJoke}>
-        Виталя
+        Button
       </button>
     </>
   );
