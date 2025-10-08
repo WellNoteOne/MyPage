@@ -39,7 +39,7 @@ section {
 }
 @media (max-width: 430px) {
   body {
-    padding-bottom: 65px;
+    padding-bottom: 85px;
   }
   .gamebut {
     font-size: 1.5rem;
